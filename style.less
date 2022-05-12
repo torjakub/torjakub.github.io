@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 1.5rem;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url('icons/background-pic.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    display: block;
+    
+
+}
+
+h1{
+    padding:1rem;
+    font-size:2.1rem;
+    color:rgba(250, 235, 215, 0.704);
+    justify-content: center;
+    height: 4rem;
+    word-wrap:normal ;
+}
+.container{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.containerWeather{
+    justify-content: center;
+    height: 20rem;
+    width:15rem;
+    background:rgba(255, 217, 167, 0.259);
+    border-radius: 0.5rem;
+    padding-top: 0.5rem;
+    margin: 1rem;
+    box-shadow: 0.23rem 0.23rem 0.1rem 0.15rem  rgba(74, 69, 61, 0.533);
+
+    display: block;
+
+}
+
+.errorMess {
+    background-color: rgba(150, 11, 11, 0.424);
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+    margin: 0.2rem;
+    max-height: 3rem;
+    display: none;
+
+    p{
+    font-size: 1rem;
+    }
+}
+
+.temperature{
+    width: 7rem;
+    font-size: 2.5rem;
+}
+.iconAndTemp{
+    height: 6rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    img{
+        width: 7rem;
+    }
+
+    p{
+        span{
+            font-size: 1rem;
+        }
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+
+.description{
+    height: 3.2rem;
+}
+
+.location{
+    height: 3.2rem;
+}
+
+.time{
+    height: 3.2rem;
+}
+
