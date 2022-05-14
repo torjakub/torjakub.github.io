@@ -26,7 +26,7 @@ function changeTempUnit(){
 
     if(weather.temperature.unit == "celsius"){
         let fahrenheit = Math.floor((weather.temperature.value * 9/5) + 32);
-        tempValue.innerHTML = `${fahrenheit}°<span class="tempUnit"> C</span>`;
+        tempValue.innerHTML = `${fahrenheit}°<span class="tempUnit"> F</span>`;
         weather.temperature.unit = "fahrenheit";
 
     } else if(weather.temperature.unit == "fahrenheit"){
